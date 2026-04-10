@@ -1,0 +1,15 @@
+# Install all dependencies with:
+# pip install -r requirements.txt
+#
+# use python 3.11
+# mediapipe has limited support for newer python versions
+
+# download the face_landmarker.task file from this websit "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task"
+# and place it in same folder as main.py
+# the run python main.py 
+
+mediapipe>=0.10.9
+opencv-python>=4.8.0
+numpy>=1.24.0
+pygame>=2.1.0
+
